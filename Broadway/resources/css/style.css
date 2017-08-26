@@ -27,6 +27,10 @@ h3 {
 p {
   font-size: 14px;
 }
+.NY {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  color: white;
+}
 .footer {
     background-color: dimgray;
 }
