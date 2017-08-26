@@ -1,23 +1,26 @@
 * {
   background-color: black;
   text-align: center;
+  font-family: Verdana, sans-serif;
+  color: white;
 }
 a {
   color: aquamarine;
   font-size: 16px;
 }
 .title {
-  font-family: Verdana, sans-serif;
   font-weight: normal;
   font-size: 50px;
-  color: white;
 }
-h2 {
-
+.body {
+  font-weight: 300;
+  font-size: 42px;
 }
-h3 {
-
+.sub {
+  font-size: 21px;
+  color: gray;
 }
-p {
-
+.copy {
+  text-align: right;
+  color: gray;
 }
