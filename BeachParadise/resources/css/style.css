@@ -1,0 +1,50 @@
+/*Global*/
+h1, h2 {
+  color: #E7F5ED;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+h3 {
+  color: #E7F5ED;
+  font-family: Helvetica, sans-serif;
+}
+body {
+  background-color: #99BFAA;
+}
+/*Class*/
+.header {
+  background-color: #5C868D;
+  border-style: double;
+  border-color: #5C3D46;
+  border-width: 10px;
+}
+.beaches {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #C8D6CA;
+  border-style: solid;
+  border-color: #5C3D46;
+  border-left-width: 350px;
+  border-right-width: 350px;
+  font-family: Helvetica, sans-serif;
+}
+.beaches a {
+  text-decoration: none;
+  color: #5C868D;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.beaches a:hover{
+  color: #E7F5DE;
+}
+/*ID*/
+#bahia, #selange, #hunt, #moat {
+  text-align: center;
+}
+#bahia p, #selange p, #hunt p, #moat p {
+  padding-left: 200px;
+  padding-right: 200px;
+  color: #5C3D46;
+  font-weight: bold;
+}

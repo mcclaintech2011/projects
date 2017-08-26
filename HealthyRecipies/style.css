@@ -1,0 +1,24 @@
+/*Global*/
+  h1, h2, p, li {
+    font-family: Helvetica;
+  }
+  img {
+    height: 150px;
+  }
+/*Class*/
+  .description {
+    font-size: 20px;
+  }
+  .ingredients li {
+    list-style: square;
+  }
+  .time p {
+    color: gray;
+  }
+  .citation a {
+    color: SeaGreen;
+  }
+/*Other*/
+#cook-time {
+  font-weight: bold;
+}
