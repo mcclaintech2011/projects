@@ -1,0 +1,15 @@
+* {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+.title {
+  background-image: url("resources\images\the-flatiron-building.png");
+  color: white;
+}
+.title #home {
+  font-size: 70px;
+  font-weight: bold;
+}
+.title #table {
+  font-size: 18px;
+}
