@@ -1,5 +1,5 @@
-<center>![alt text](https://mcclaintech2011.github.io/projects/TBDLogoEmail.jpg "Tiny Bear Designs Logo")
-## PROJECTS</center>
+![alt text](https://mcclaintech2011.github.io/projects/TBDLogoEmail.jpg "Tiny Bear Designs Logo")
+## PROJECTS
 #### HTML
 [BrownBear](https://mcclaintech2011.github.io/projects/BrownBear/index.html "BrownBear html")
 
