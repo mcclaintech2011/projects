@@ -27,3 +27,11 @@ h3 {
 p {
   font-size: 14px;
 }
+.footer {
+    background-color: dimgray;
+}
+.footer p {
+  font-size: 11px;
+  color: white;
+  text-align: right;
+}
