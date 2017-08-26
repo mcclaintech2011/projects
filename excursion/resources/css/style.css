@@ -1,13 +1,16 @@
+* {
+  background-color: black;
+  text-align: center;
+}
 a {
   color: aquamarine;
   font-size: 16px;
 }
-h1 {
+.title {
   font-family: Verdana, sans-serif;
   font-weight: normal;
-  font-size: 50px
+  font-size: 50px;
   color: white;
-  text-align: center;
 }
 h2 {
 
