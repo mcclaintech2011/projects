@@ -1,4 +1,5 @@
-# projects
+![alt text](https://mcclaintech2011.github.io/projects/TBDLogoEmail.jpg "Tiny Bear Designs Logo")
+### projects
 # BeachParadise html + css
 # BrownBear html
 # Dasmotos html + css 
