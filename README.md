@@ -13,7 +13,7 @@
 
 
 #### HTML + CSS
-[Beach Paradise](https://mcclaintech2011.github.io/projects/Beachparadise/index.html "BeachParadise html + css")
+[Beach Paradise](https://mcclaintech2011.github.io/projects/BeachParadise/index.html "BeachParadise html + css")
 
 [Broadway](https://mcclaintech2011.github.io/projects/Broadway/index.html "Broadway html + css")
 
@@ -24,3 +24,7 @@
 [Excursion](https://mcclaintech2011.github.io/projects/excursion/index.html "excursion html + css")
 
 [Olivia Woodruff Portfolio](https://mcclaintech2011.github.io/projects/OliviaWoodruffPortfolio/index.html "OliviaWoodruffPortfolio html + css")
+
+
+####HTML + CSS + FLEXBOX
+[The Terminal](https://mcclaintech2011.github.io/projects/TerminalCopyPractice/index.html "Terminal html + css + flexbox")
