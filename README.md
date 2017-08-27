@@ -9,10 +9,10 @@
 
 [Social Profile](https://mcclaintech2011.github.io/projects/SocialProfile/index.html "SocialProfile html")
 
+[Two Sandals](https://mcclaintech2011.github.io/projects/TwoSandals/index.html "TwoSandals html + css")
+
 
 #### HTML + CSS
-
-
 [Beach Paradise](https://mcclaintech2011.github.io/projects/BrownBear/index.html "BeachParadise html + css")
 
 [Broadway](https://mcclaintech2011.github.io/projects/Broadway/index.html "Broadway html + css")
@@ -21,8 +21,6 @@
 
 [Dev Project](https://mcclaintech2011.github.io/projects/DevProject/index.html "DevProject html + css")
 
-[Olivia Woodruff Portfolio](https://mcclaintech2011.github.io/projects/OliviaWoodruffPortfolio/index.html "OliviaWoodruffPortfolio html + css")
-
-[Two Sandals](https://mcclaintech2011.github.io/projects/TwoSandals/index.html "TwoSandals html + css")
-
 [Excursion](https://mcclaintech2011.github.io/projects/excursion/index.html "excursion html + css")
+
+[Olivia Woodruff Portfolio](https://mcclaintech2011.github.io/projects/OliviaWoodruffPortfolio/index.html "OliviaWoodruffPortfolio html + css")
