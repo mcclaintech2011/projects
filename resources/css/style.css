@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  line-height: 1.5;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/f0/a9/7c/f0a97ca3a74d6ae77e0d361ed2e074cd.jpg");
+  font-weight: 900;
+  color: #343434;
+}
+
+hr {
+  border: 0;
+  width: 40%;
+  color: #C3C598;
+  background-color: #C3C598;
+  height: 5px;
+}
+
+a {
+  color: #3B3736;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+a:hover {
+  color: #C3C598;
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 1.5em;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+}
+
+h1 {
+  color: #343434;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-weight: 900;
+  margin: 0 0 30px 0;
+  }
+h2 {
+  color: #514538;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-weight: 900;
+  margin: 0 0 30px 0;
+  }
