@@ -25,8 +25,8 @@ body {
 #banner {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
   background-size: cover;
-  background-position: bottom center;
-  height: 700px;
+  background-position: center;
+  height: 400px;
   width: 100%;
 }
 
@@ -34,7 +34,7 @@ body {
   border: 3px solid white;
   position: relative;
   top: 50px;
-  width: 400px;
+  width: 600px;
   margin: 0 auto;
 }
 
@@ -42,7 +42,7 @@ body {
   margin: 0 auto;
   padding: 40px;
   text-align: center;
-  width: 400px;
+  width: 900px;
 }
 
 h1 {
@@ -58,8 +58,9 @@ h2 {
   font-size: 14px;
   line-height: 48px;
   padding: 20px 30px;
-  margin: 30px 20px;
+  margin: 0px 20px;
   text-align: center;
+  width: 600px;
 }
 
 h3 {
@@ -79,23 +80,25 @@ p {
 
 .pull-quote {
   margin: 0 auto;
-  width: 400px;
+  width: 600px;
 }
 
 .byline {
-  border-bottom: 1px solid LightGrey;
-  border-top: 1px solid LightGrey;
+  border-bottom: 2px solid LightGrey;
+  border-top: 2px solid LightGrey;
   color: DarkGrey;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 200;
 }
 
 .share {
-  border: 1px solid LightGrey;
+  border-bottom: 1px solid red;
+  border-top: 1px solid red;
   padding: 40px 0px;
   position: relative;
   text-align: center;
-  width: 100%;
+  margin: 0 auto;
+  width: 60%;
 }
 
 .share a {
