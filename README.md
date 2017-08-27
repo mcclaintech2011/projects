@@ -13,7 +13,7 @@
 
 
 #### HTML + CSS
-[Beach Paradise](https://mcclaintech2011.github.io/projects/BrownBear/index.html "BeachParadise html + css")
+[Beach Paradise](https://mcclaintech2011.github.io/projects/Beachparadise/index.html "BeachParadise html + css")
 
 [Broadway](https://mcclaintech2011.github.io/projects/Broadway/index.html "Broadway html + css")
 
