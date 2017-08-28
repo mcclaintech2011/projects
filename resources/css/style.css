@@ -9,7 +9,7 @@
 body {
   font-family: "Source Sans Pro", Arial, sans-serif;
   line-height: 1.5;
-  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/f0/a9/7c/f0a97ca3a74d6ae77e0d361ed2e074cd.jpg");
+  background-color: #4A4C4A;
   font-weight: 900;
   color: #343434;
 }
@@ -18,22 +18,14 @@ td {
   text-align: left;
 }
 
-hr {
-  border: 0;
-  width: 40%;
-  color: #C3C598;
-  background-color: #C3C598;
-  height: 5px;
-}
-
 a {
-  color: #3B3736;
+  color: #343434;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover {
-  color: #C3C598;
+  color: #64745B;
   text-decoration: none;
 }
 
@@ -45,13 +37,16 @@ p {
 }
 
 h1 {
-  color: #343434;
+  color: #020202;
   font-family: "Source Sans Pro", Arial, sans-serif;
   font-weight: 900;
   margin: 0 0 30px 0;
+  padding-left: 60px;
+  background-color: #7b7b7b;
+  width: 40%;
   }
 h2 {
-  color: #514538;
+  color: #64745B;
   font-family: "Source Sans Pro", Arial, sans-serif;
   font-weight: 900;
   margin: 0 0 30px 0;
