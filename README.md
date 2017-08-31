@@ -28,4 +28,5 @@
 
 #### HTML + CSS + FLEXBOX
 [The Terminal](https://mcclaintech2011.github.io/projects/TerminalCopyPractice/index.html "Terminal html + css + flexbox")
+
 [History](https://mcclaintech2011.github.io/projects/History/index.html "History html + css + flexbox")
