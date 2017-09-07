@@ -31,4 +31,4 @@
 
 [Davie's Burgers](https://mcclaintech2011.github.io/projects/DaviesBurgers/index.html "DaviesBurgers html + css + flexbox")
 
-[Take Our Survey! (Demo)](https://mcclaintech2011.github.io/projects/DemoSurvey/index.html "DemoSurvey html + css + flexbox")
+[Take Our Survey! (Demo)](https://mcclaintech2011.github.io/projects/SurveyDemo/index.html "DemoSurvey html + css + flexbox")
