@@ -12,38 +12,95 @@ header {
   font-size: 14px;
   font-weight: bold;
 }
+header nav {
+  padding-right: 40px;
+}
+a {
+  color: black;
+}
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
 
 .logo {
   display: flex;
   align-items: center;
   flex-grow: 1;
   padding-left: 30px;
+  border: solid black 1px;
 }
-
 .logo img {
   width: 70px;
   height: 60px;
   margin-right: 12px;
 }
-
 .logo p {
   color: MediumAquamarine;
 }
 
-header nav {
-  padding-right: 40px;
-}
-
-a {
-  color: black;
-}
-
-nav span {
-  display: inline-block;
-  padding: 20px 10px;
-}
-
 /*body attributes*/
 body {
-  margin: 0;
+  display: block;
+  margin: 8px;
+}
+
+.content {
+  border: solid black 1px;
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+  border: solid black 1px;
+}
+.stories{
+  border: solid black 1px;
+  display: block;
+}
+.story{
+  border: solid black 1px;
+}
+.text-content{
+  border: solid black 1px;
+}
+
+/*lead section*/
+.column.large {
+  width: 630px;
+  border: solid black 1px;
+}
+.lead-story {
+  border: solid black 1px;
+}
+.image-content{
+  border: solid black 1px;
+}
+.image-content p {
+  display: block;
+}
+.fall-cancelled.image-content {
+  border: solid black 1px;
+}
+.pop-culture.image-content {
+  border: solid black 1px;
+}
+
+/*stories section*/
+.column.medium {
+  width: 300px;
+  border: solid black 1px;
+}
+
+/*sidebar section*/
+.column.small {
+  width: 240px;
+  border: solid black 1px;
+}
+.news-bites {
+  border: solid black 1px;
 }
