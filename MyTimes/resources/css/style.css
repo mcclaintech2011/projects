@@ -22,13 +22,17 @@ nav span {
   display: inline-block;
   padding: 20px 10px;
 }
+p {
+  font-family: Georgia;
+  font-size: 15px;
+  color: black;
+}
 
 .logo {
   display: flex;
   align-items: center;
   flex-grow: 1;
   padding-left: 30px;
-  border: solid black 1px;
 }
 .logo img {
   width: 70px;
@@ -46,9 +50,8 @@ body {
 }
 
 .content {
-  border: solid black 1px;
   display: flex;
-  width: 1232px;
+  width: 1240px;
   margin: 0 auto 78px auto;
   padding-top: 116px;
 }
@@ -56,28 +59,26 @@ body {
   display: flex;
   flex-direction: column;
   margin-right: 32px;
-  border: solid black 1px;
 }
 .stories{
-  border: solid black 1px;
-  display: block;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
 }
-.story{
-  border: solid black 1px;
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
-.text-content{
-  border: solid black 1px;
+.text-content {
+
 }
 .quote {
   text-transform: capitalize;
-  font-size: 15px;
+  font-size: 20px;
   font-style: italic;
 }
 .image-content{
-  border: solid black 1px;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -90,12 +91,11 @@ body {
 }
 
 /*lead section*/
-.column.large {
+.column-large {
   width: 630px;
-  border: solid black 1px;
+  margin-right: 32px;
 }
 .lead-story .image-content{
-  border: solid black 1px;
   background-image: url("https://mcclaintech2011.github.io/projects/MyTimes/resources/images/img-story-main.png");
   width: 630px;
   margin-top: 0;
@@ -103,23 +103,19 @@ body {
   text-align: left
 }
 .fall-cancelled {
-  border: solid black 1px;
   background-image: url("https://mcclaintech2011.github.io/projects/MyTimes/resources/images/img-story-2.png");
   margin-top: 15px;
 }
 .pop-culture {
-  border: solid black 1px;
   background-image: url("https://mcclaintech2011.github.io/projects/MyTimes/resources/images/img-story-3.png");
   margin-top: 15px;
 }
 
-/*stories section*/
+/*middle section*/
 .column.medium {
   width: 300px;
-  border: solid black 1px;
 }
 .cat-ceo {
-  border: solid black 1px;
   background-image: url("https://mcclaintech2011.github.io/projects/MyTimes/resources/images/img-story-1.png");
   margin-top: 15px;
 }
@@ -127,10 +123,9 @@ body {
 /*sidebar section*/
 .column.small {
   width: 240px;
-  border: solid black 1px;
 }
 .news-bites {
-  border: solid black 1px;
+
 }
 .cookie {
   width: 240px;
