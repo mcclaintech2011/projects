@@ -64,9 +64,29 @@ body {
 }
 .story{
   border: solid black 1px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 .text-content{
   border: solid black 1px;
+}
+.quote {
+  text-transform: capitalize;
+  font-size: 15px;
+  font-style: italic;
+}
+.image-content{
+  border: solid black 1px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  text-align: center;
+}
+.image-content p {
+  display: block;
 }
 
 /*lead section*/
@@ -74,26 +94,34 @@ body {
   width: 630px;
   border: solid black 1px;
 }
-.lead-story {
+.lead-story .image-content{
   border: solid black 1px;
+  background-image: url("https://mcclaintech2011.github.io/projects/MyTimes/resources/images/img-story-main.png");
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left
 }
-.image-content{
+.fall-cancelled {
   border: solid black 1px;
+  background-image: url("https://mcclaintech2011.github.io/projects/MyTimes/resources/images/img-story-2.png");
+  margin-top: 15px;
 }
-.image-content p {
-  display: block;
-}
-.fall-cancelled.image-content {
+.pop-culture {
   border: solid black 1px;
-}
-.pop-culture.image-content {
-  border: solid black 1px;
+  background-image: url("https://mcclaintech2011.github.io/projects/MyTimes/resources/images/img-story-3.png");
+  margin-top: 15px;
 }
 
 /*stories section*/
 .column.medium {
   width: 300px;
   border: solid black 1px;
+}
+.cat-ceo {
+  border: solid black 1px;
+  background-image: url("https://mcclaintech2011.github.io/projects/MyTimes/resources/images/img-story-1.png");
+  margin-top: 15px;
 }
 
 /*sidebar section*/
@@ -103,4 +131,8 @@ body {
 }
 .news-bites {
   border: solid black 1px;
+}
+.cookie {
+  width: 240px;
+  height: 330px;
 }
