@@ -76,7 +76,7 @@ nav span {
   background-color: black;
   width: 100%;
 }
-#locations .flex-container {
+#locations .header {
   margin: auto;
   width: 1100px;
 }
@@ -94,8 +94,10 @@ nav span {
   height: 200px;
   margin: 10px;
   display: block;
+  justify-content: center;
 }
-.flex-container.locations {
+
+.header.locations {
   padding-top: 5px;
 }
 .location {
@@ -107,4 +109,14 @@ nav span {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+/*footer and contact specific*/
+#contact {
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
 }
