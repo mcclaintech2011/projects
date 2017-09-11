@@ -34,3 +34,5 @@
 [Take Our Survey! (Demo)](https://mcclaintech2011.github.io/projects/SurveyDemo/index.html "DemoSurvey html + css + flexbox")
 
 [Not to Do](https://mcclaintech2011.github.io/projects/ToDoApp/index.html "ToDoApp html + css + flexbox")
+
+[My Times News](https://mcclaintech2011.github.io/projects/MyTimes/index.html "MyTimes html + css + flexbox")
