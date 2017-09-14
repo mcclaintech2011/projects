@@ -69,7 +69,7 @@ nav span {
 
 #mission {
   height: 700px;
-  background-image: url("https://mcclaintech2011.github.io/projects/TeaCozyProject/resources/images/img-mission-background.jpg");
+  background-image: url("../images/img-mission-background.jpg");
   padding-top: 70px;
 }
 #mission .content {
@@ -84,7 +84,7 @@ nav span {
   padding-top: 70px;
 }
 #locations {
-  background-image: url("https://mcclaintech2011.github.io/projects/TeaCozyProject/resources/images/img-locations-background.jpg");
+  background-image: url("../images/img-locations-background.jpg");
   height: 500px;
   padding-top: 70px;
 }

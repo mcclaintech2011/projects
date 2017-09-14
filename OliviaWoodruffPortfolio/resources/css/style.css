@@ -4,7 +4,7 @@ h1 {
 }
 body {
   font-family: Georgia;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/selga.png")
+  background-image: url("../images/selga.png")
 }
 /*Class*/
 .about-me {

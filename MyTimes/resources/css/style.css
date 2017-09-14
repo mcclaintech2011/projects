@@ -101,18 +101,18 @@ body {
   margin-right: 32px;
 }
 .lead-story .image-content{
-  background-image: url("https://mcclaintech2011.github.io/projects/MyTimes/resources/images/img-story-main.png");
+  background-image: url("../images/img-story-main.png");
   width: 630px;
   margin-top: 0;
   font-size: 40px;
   text-align: left
 }
 .fall-cancelled {
-  background-image: url("https://mcclaintech2011.github.io/projects/MyTimes/resources/images/img-story-2.png");
+  background-image: url("../images/img-story-2.png");
   margin-top: 15px;
 }
 .pop-culture {
-  background-image: url("https://mcclaintech2011.github.io/projects/MyTimes/resources/images/img-story-3.png");
+  background-image: url("../images/img-story-3.png");
   margin-top: 15px;
 }
 
@@ -121,7 +121,7 @@ body {
   width: 300px;
 }
 .cat-ceo {
-  background-image: url("https://mcclaintech2011.github.io/projects/MyTimes/resources/images/img-story-1.png");
+  background-image: url("../images/img-story-1.png");
   margin-top: 15px;
 }
 

@@ -9,7 +9,7 @@ h2 {
 }
 /*Class*/
 .title {
-  background-image: image("resources\images\pattern.jpg");
+  background-image: image("../images/pattern.jpg");
   font-size: 100px;
   font-weight: bold;
   color: khaki;
