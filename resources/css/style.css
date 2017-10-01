@@ -16,6 +16,9 @@ body {
 td {
   vertical-align: top;
   text-align: left;
+  padding-right: 2em;
+  padding-left: 2em;
+  padding-bottom: 2em;
 }
 
 a {
