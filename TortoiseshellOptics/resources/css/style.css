@@ -1,5 +1,3 @@
-/* Universal Styles */
-
 html {
   font-family: Helvetica, sans-serif;
   font-size: 18px;
@@ -20,7 +18,6 @@ body {
 }
 
 /* Header Styling */
-
 header {
   background: url('../images/glasses-bg.png') no-repeat center center ;
   background-repeat: no-repeat;
@@ -89,7 +86,6 @@ header .flex {
 
 
 /* Section Styling */
-
 .service {
   display: flex;
   flex-direction: column;
@@ -129,15 +125,11 @@ header .flex {
 }
 
 /* Footer Styling */
-
 footer {
   background-color: azure;
   padding: 4rem 2rem;
   display: flex;
   align-items: center;
-}
-
-footer {
   font-size: .5rem;
   font-weight: bold;
 }
@@ -146,4 +138,95 @@ footer img {
   height: .5rem;
   margin-left: 2rem;
   margin-right: 1rem;
+}
+
+/* @media Queries */
+@media only screen and (max-width: 1024px) {
+  header {
+    padding-top: 0;
+    height: 22rem;
+  }
+  nav.container {
+    max-width: 100%;
+  }
+  .main-banner {
+    padding: 0.75rem 4rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+  .main-banner h1 {
+    font-size: 1.33rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .menu ul {
+    display: none;
+  }
+  .menu ul.truncated-menu {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  header div span {
+    display: none;
+  }
+  header {
+    background-position: 20%;
+    height: 17rem;
+  }
+  .main-banner {
+    padding: 0 1rem;
+    margin: 9rem auto 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  .main-banner h1 {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .supporting {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .service {
+    height: auto;
+    margin: .77rem;
+    font-size: .77rem;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .info {
+    width: auto;
+  }
+
+  .info .title {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .info p {
+    padding: 1rem;
+    font-size: .77rem;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  footer {
+    justify-content: center;
+  }
+
+  footer div {
+    display: none;
+  }
 }
