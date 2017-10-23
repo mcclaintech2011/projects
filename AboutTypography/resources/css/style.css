@@ -1,5 +1,26 @@
 /* Universal Styles */
 
+@font-face {
+  font-family: "Glegoo";
+  src: url(../fonts/Glegoo-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Space Mono'), local('SpaceMono-Regular'), url(https://fonts.gstatic.com/s/spacemono/v1/adVweg3BJhE6r8jYmXseHQzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Space Mono Bold'), local('SpaceMono-Bold'), url(https://fonts.gstatic.com/s/spacemono/v1/vdpMRWfyjfCvDYTz00NEPGaVI6zN22yiurzcBKxPjFE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
 html {
   font-size: 16px;
   font-family: "Arial", sans-serif;
@@ -12,12 +33,17 @@ body {
 h1 {
   color: white;
   font-size: 28px;
+  font-family: Georgia;
+  text-transform: uppercase;
 }
 
 h2 {
   font-size: 24px;
   font-weight: 700;
   line-height: 2.5;
+  font-family: Georgia;
+  word-spacing: 0.05em;
+  letter-spacing: 0.02em;
 }
 
 a {
@@ -26,6 +52,7 @@ a {
 
 p {
   margin: 16px 0;
+  font-family: Helvetica;
 }
 
 strong {
@@ -44,12 +71,12 @@ strong {
 .header {
   font-family: "Arial", sans-serif;
   font-size: 14px;
-  font-weight: 900;
   line-height: 1.25;
   background-color: #fff;
   position: fixed;
   top: 0;
   width: 100%;
+  font-weight: 900;
 }
 
 .header li {
@@ -83,6 +110,8 @@ a.home {
   color: #ffffff;
   font-weight: bold;
   line-height: 1.4;
+  font-family: "Glegoo";
+  font-size: 20px;
 }
 
 /* Editorial Sections */
@@ -104,8 +133,8 @@ a.home {
 
 .font-card .creator {
   font-size: 20px;
-  font-style: italic;
   line-height: 1.25;
+  font-style: italic;
 }
 
 .sample {
@@ -125,9 +154,21 @@ a.home {
 
 /* Add styles for the Garamond font here */
 
+.garamond .sample .text {
+  font-family: Garamond, serif;
+}
+
 /* Add styles for the Helvetica font here */
 
+.helvetica .sample .text {
+  font-family: Helvetica, sans-serif;
+}
+
 /* Add styles for the Space Mono font here */
+
+.space .sample .text {
+  font-family: "Space Mono", monospace;
+}
 
 .bold {
   font-weight: 900;
