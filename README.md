@@ -57,4 +57,6 @@ Color Theory - [Best Coffee](http://mcclaintech2011.github.io/projects/BestCoffe
 
 HSL/A - [Digital Art | HSL/A](http://mcclaintech2011.github.io/projects/DigitalArt/index.html "DigitalArt HSL/A")
 
+Color Theory + HSL/A [House Store](http://mcclaintech2011.github.io/projects/HouseStore/index.html "HouseStore color theory + HSL/A")
+
 Typography - [About Typography](http://mcclaintech2011.github.io/projects/AboutTypography/index.html "AboutTypography typography")
