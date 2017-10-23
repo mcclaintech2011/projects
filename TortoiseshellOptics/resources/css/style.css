@@ -19,7 +19,7 @@ body {
   display: flex;
 }
 
-/* Header */
+/* Header Styling */
 
 header {
   background: url('../images/glasses-bg.png') no-repeat center center ;
@@ -85,4 +85,65 @@ header .flex {
 .supporting {
   display: flex;
   justify-content: center;
+}
+
+
+/* Section Styling */
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 3rem;
+  width: 5rem;
+  height: 8rem;
+}
+
+.service img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.service img.paper-icon {
+  width: 3.5rem;
+}
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+.info p {
+  padding: 1rem 0;
+}
+
+.title {
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  font-weight: bold;
+  color: white;
+  max-width: 10rem;
+}
+
+/* Footer Styling */
+
+footer {
+  background-color: azure;
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  font-size: .5rem;
+  font-weight: bold;
+}
+
+footer img {
+  height: .5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
 }
