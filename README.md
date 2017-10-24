@@ -60,3 +60,5 @@ HSL/A - [Digital Art | HSL/A](http://mcclaintech2011.github.io/projects/DigitalA
 Color Theory + HSL/A [House Store](http://mcclaintech2011.github.io/projects/HouseStore/index.html "HouseStore color theory + HSL/A")
 
 Typography - [About Typography](http://mcclaintech2011.github.io/projects/AboutTypography/index.html "AboutTypography typography")
+
+Pseudo-classes - [Adoptly](http://mcclaintech2011.github.io/projects/Adoptly/index.html "Adoptly pseudo-classes")
