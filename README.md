@@ -61,4 +61,6 @@ Color Theory + HSL/A [House Store](http://mcclaintech2011.github.io/projects/Hou
 
 Typography - [About Typography](http://mcclaintech2011.github.io/projects/AboutTypography/index.html "AboutTypography typography")
 
+Typography - [Aofie Conleavy | Morocco](http://mcclaintech2011.github.io/projects/AofieConleavy/index.html "AofieConleavy typography")
+
 Pseudo-classes - [Adoptly](http://mcclaintech2011.github.io/projects/Adoptly/index.html "Adoptly pseudo-classes")
