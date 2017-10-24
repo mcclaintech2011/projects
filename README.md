@@ -64,3 +64,5 @@ Typography - [About Typography](http://mcclaintech2011.github.io/projects/AboutT
 Typography - [Aofie Conleavy | Morocco](http://mcclaintech2011.github.io/projects/AofieConleavy/index.html "AofieConleavy typography")
 
 Pseudo-classes - [Adoptly](http://mcclaintech2011.github.io/projects/Adoptly/index.html "Adoptly pseudo-classes")
+
+Transitions - [Transition Samples](http://mcclaintech2011.github.io/projects/TransitionSample/index.html "Transition Sample pseudo-classes")

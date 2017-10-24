@@ -1,0 +1,153 @@
+body {
+  min-width: 300px;
+  background-color: #ecf0f1;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.button1 a {
+  display: block;
+  width: 300px;
+  padding: 30px 5px;
+  border-radius: 5px;
+  margin: 5% auto;
+  background-color: aqua;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 32px;
+  color: MintCream;
+}
+
+.button1 a {
+  transition-property: background-color;
+  transition-duration: 1.5s;
+}
+
+.button1 a:hover {
+  background-color: LimeGreen;
+}
+
+.button1 h1{
+  font-family: Garamond, Arial, serif;
+  text-align: center;
+  font-size: 4em;
+}
+
+.button2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  width: 300px;
+  height: 100px;
+  line-height: 100px;
+  background-color: #34B3A0;
+  color: #fff;
+}
+
+.button2 span,
+.button2 .icon {
+  position: absolute;
+  display: block;
+  height: 100%;
+  text-align: center;
+}
+
+.button2 span {
+  width: 72%;
+  left: 0px;
+  line-height: inherit;
+  font-size: 22px;
+}
+
+.button2 .icon {
+  right: 0;
+  width: 28%;
+}
+
+.button2 .icon .fa {
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.button2 span,
+.button2 div,
+.button2 i {
+  transition: all 1.2s ease-out 0.2s;
+}
+
+.button2 a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.icon {
+  width: 200px;
+  background-color: #1A7B72;
+}
+
+.button2:hover span {
+  left: -72%;
+}
+
+.button2:hover .icon {
+  width: 100%;
+}
+
+.button2:hover .icon .fa {
+  font-size: 45px;
+}
+
+.scene h1 {
+  font-family: Garamond, Arial, serif;
+  font-size: 4em;
+  text-align: center;
+}
+
+.scene h3 {
+  font-family: Garamond, Arial, serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+.scene p {
+  text-align: center;
+  font-family: Garamond, Arial, serif;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.game {
+  position: relative;
+  display: inline-block;
+  height: 60%;
+}
+
+.game img {
+  cursor: pointer;
+}
+
+.game .safari {
+  margin-top: 50px;
+  height: 430.188px;
+  width: 573.578px;
+}
+
+.game .gazelle {
+  position: absolute;
+  top: 260px;
+  left: 231px;
+  z-index: 1;
+  transition: max-height 750ms 750ms ease-in;
+  max-height: 50px;
+}
+
+.game .gazelle:hover {
+  max-height: 180px;
+}
