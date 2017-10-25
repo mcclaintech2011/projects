@@ -5,9 +5,10 @@ body {
   font-size: 15px;
 }
 
-#gray {
-  color: #b6b6b6;
-  font-weight: lighter;
+h1 {
+  font-weight: bolder;
+  font-size: 2em;
+  padding-bottom: 20px;
 }
 
 /*Header styling*/
@@ -38,6 +39,11 @@ header {
   font-weight: bolder;
 }
 
+#gray {
+  color: #b6b6b6;
+  font-weight: lighter;
+}
+
 /*Navigation styling*/
 nav {
   display: flex;
@@ -66,4 +72,42 @@ nav a {
 
 #MobileNav {
   display: none;
+}
+
+/*Banner styling*/
+#banner {
+  display: flex;
+  background-color: lightgray;
+}
+
+#banner img {
+  padding-top: 33px;
+  height: 60%;
+  margin: 32px 24px;
+  width: 60%;
+}
+
+#banner .RightSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 24px;
+  font-size: 24px;
+}
+
+#banner #button {
+  color: #fff;
+  background-color: gray;
+  padding: 5px 10px;
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 50%;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#banner #button:hover{
+  background-color: #b6b6b6;
+  transition: background-color .5s ease-in-out, color .5s ease-in-out;
 }
