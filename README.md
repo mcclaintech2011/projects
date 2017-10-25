@@ -55,6 +55,8 @@
 #### OTHER CONCEPTS
 Color Theory - [Best Coffee](http://mcclaintech2011.github.io/projects/BestCoffee/index.html "BestCoffee color theory")
 
+Color Theory - [Best Bites](http://mcclaintech2011.github.io/projects/BestBites/index.html "BestBites color theory")
+
 HSL/A - [Digital Art | HSL/A](http://mcclaintech2011.github.io/projects/DigitalArt/index.html "DigitalArt HSL/A")
 
 Color Theory + HSL/A [House Store](http://mcclaintech2011.github.io/projects/HouseStore/index.html "HouseStore color theory + HSL/A")
@@ -66,3 +68,5 @@ Typography - [Aofie Conleavy | Morocco](http://mcclaintech2011.github.io/project
 Pseudo-classes - [Adoptly](http://mcclaintech2011.github.io/projects/Adoptly/index.html "Adoptly pseudo-classes")
 
 Transitions - [Transition Samples](http://mcclaintech2011.github.io/projects/TransitionSample/index.html "Transition Sample pseudo-classes")
+
+Transitions - [20,000 Leagues Under the Sea](http://mcclaintech2011.github.io/projects/20000Leagues/index.html "20000Leagues transitions")
