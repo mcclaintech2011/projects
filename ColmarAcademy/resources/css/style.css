@@ -170,6 +170,12 @@ nav .button {
   display: flex;
 }
 
+.row {
+  margin-top: 1%;
+  margin-bottom: .5%;
+  margin-right: 1%;
+}
+
 .information .LeftSide {
   margin: 32px 24px;
   width: 60%;
@@ -227,4 +233,286 @@ nav .button {
 
 .MobileHeader {
   display: none;
+}
+
+/* Classes */
+.learning {
+  background-color: #2b8cb6;
+  width: 100%;
+}
+
+.learning h1 {
+  text-align: center;
+  padding: 32px 0;
+  color: #D9D9D9;
+}
+
+.MobileGrids {
+  display: none;
+}
+
+.grids {
+  display: flex;
+  flex-direction: column;
+  margin-left: 72px 0px;
+}
+
+.grids .row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5%;
+}
+
+.grid {
+  background-color: white;
+  margin-left: 5%;
+}
+
+.grid img {
+  height: auto;
+  width: auto;
+}
+
+.grid .content {
+  margin-left: 16px;
+}
+
+.grid .content h3 {
+  font-size: 24px;
+  margin-top: 16px;
+}
+
+.grid .content span {
+  margin: 8px 0;
+}
+
+.grid .content p {
+  margin-bottom: 24px;
+}
+
+/* thesis */
+.ThesisExhibit h2 {
+  font-size: 36px;
+  padding: 32px 0;
+  text-align: center;
+}
+
+.ThesisExhibit .content {
+  display: flex;
+}
+
+.ThesisExhibit .LeftSide {
+  width: 60%;
+  margin-left: 24px;
+}
+
+.ThesisExhibit .LeftSide video {
+  width: 100%;
+}
+
+.ThesisExhibit .LeftSide h3 {
+  margin-bottom: 8px;
+}
+
+.ThesisExhibit .LeftSide p {
+  margin-bottom: 32px;
+}
+
+.ThesisExhibit .RightSide {
+  width: 40%;
+  margin-left: 24px;
+}
+
+.ThesisExhibit .RightSide .row {
+  display: flex;
+}
+
+.ThesisExhibit .RightSide .row .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ThesisExhibit .RightSide .row img {
+  width: 35%;
+  height: auto;
+  padding: 16px;
+}
+
+.ThesisExhibit .RightSide #FirstRow {
+  background-color: lightgray;
+}
+
+.MobileVideo {
+  display: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid lightgray;
+  padding-bottom: 32px;
+}
+
+footer .copyright p {
+  margin-top: 16px;
+  margin-left: 24px;
+}
+
+footer .TermsAndPrivacy {
+  margin-top: 16px;
+  margin-right: 24px;
+}
+
+footer .TermsAndPrivacy a {
+  color: gray;
+  text-decoration: none;
+  margin-left: 8px;
+}
+
+@media only screen and (max-width: 700px) {
+  header {
+    justify-content: center;
+  }
+
+  .MobileNav {
+    display: flex;
+  }
+
+  nav .MobileNav img {
+    height: 45px;
+  }
+
+  .logo h1 {
+    display: none;
+  }
+
+  .DesktopNav {
+    display: none;
+  }
+
+  .banner {
+    display: block;
+  }
+
+  .banner img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .banner h2 {
+    margin: 32px 16px;
+  }
+
+  .banner p {
+    margin-bottom: 24px;
+    margin-left: 16px;
+  }
+
+  .banner .button {
+    width: 90%;
+    margin-left: 16px;
+    margin-bottom: 32px;
+  }
+
+  .information .LeftSide {
+    display: none;
+  }
+
+  .information .RightSide {
+    width: 100%;
+    margin: 16px;
+  }
+
+  .information .RightSide .row {
+    display: block;
+    border: none;
+  }
+
+  .information .RightSide .row img {
+    width: 95%;
+  }
+
+  .information .RightSide .row .DesktopImage {
+    display: none;
+  }
+
+  .information .RightSide .row .MobileImage {
+    display: inline-block;
+  }
+
+  .information .RightSide #ThirdRow {
+    display: block;
+    background-color: white;
+  }
+
+  .information .RightSide .details {
+    margin-top: 0;
+    margin-left: 32px;
+  }
+
+  .DesktopHeader {
+    display: none;
+  }
+
+  .MobileHeader {
+    display: block;
+  }
+
+  .learning {
+    background-color: white;
+    border: 1px solid lightgray;
+  }
+
+  .learning h2 {
+    padding: 0;
+    margin-top: 32px;
+    margin-bottom: 16px;
+  }
+
+  .grids {
+    display: none;
+  }
+
+  .MobileGrids {
+    display: block;
+    margin-bottom: 32px;
+  }
+
+  .MobileGrids h3 {
+    width: 90%;
+    font-size: 21px;
+    background-color: lightgray;
+    margin-left: 16px;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+  }
+
+  .ThesisExhibit h2 {
+    margin: 0;
+    padding-top: 32px;
+    padding-bottom: 16px;
+  }
+
+  .ThesisExhibit .content {
+    display: none;
+  }
+
+  .MobileVideo {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+  }
+
+  footer {
+    display: block;
+    padding: 16px 0;
+    border: none;
+  }
+
+  footer .TermsAndPrivacy {
+    display: none;
+  }
 }
