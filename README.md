@@ -70,3 +70,5 @@ Pseudo-classes - [Adoptly](http://mcclaintech2011.github.io/projects/Adoptly/ind
 Transitions - [Transition Samples](http://mcclaintech2011.github.io/projects/TransitionSample/index.html "Transition Sample pseudo-classes")
 
 Transitions - [20,000 Leagues Under the Sea](http://mcclaintech2011.github.io/projects/20000Leagues/index.html "20000Leagues transitions")
+
+Full Package - [Colmar Academy](http://mcclaintech2011.github.io/projects/ColmarAcademy/index.html "Colmar Academy full package")
