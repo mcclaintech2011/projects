@@ -16,13 +16,13 @@
       </div>
 
       <nav>
-        <div class="DesktopNav">
+        <div class="desktop-nav">
           <a href="#">On Campus</a>
           <a href="#">Online</a>
           <a href="#">For Companies</a>
           <a class="button" href="#">SIGN IN</a>
         </div>
-        <div class="MobileNav">
+        <div class="mobile-nav">
           <a href="#"><img src="resources/images/ic-on-campus.svg"></a>
           <a href="#"><img src="resources/images/ic-online.svg"></a>
           <a href="#"><img src="resources/images/ic-login.svg"></a>
@@ -32,27 +32,27 @@
 <!--banner and quote-->
     <div class="banner">
       <img src="resources/images/banner.jpg">
-      <div id="RightSide">
+      <div class="right-side">
         <h1>Learn something new everyday</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>An investment in knowledge pays the best interest.</p>
         <div class="button">
           START HERE
         </div>
       </div>
     </div>
     <div class="information">
-      <div class="LeftSide">
+      <div class="left-side">
         <img src="resources/images/information-main.jpg">
         <h1>It doesn't hurt to keep practicing</h1>
-        <h6>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sec consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</h6>
+        <h6>"There are no right and wrong ways to work in this business, but there are some basic common-sense practices. Work very, very hard and always be prepared; never give up; and once you get the job, give them more than they ever expected. Practice hard and shine!"</h6>
         <br>
         <p>-----Emanuel, Sr Strategist at Hiring.com-----</p>
       </div>
 <!--dates-->
-      <div class="RightSide">
+      <div class="right-side">
         <div class="row">
-          <img class="DesktopImage" src="resources/images/information-orientation.jpg">
-          <img class="MobileImage" src="resources/images/information-orientation-mobile.jpg">
+          <img class="desktop-image" src="resources/images/information-orientation.jpg">
+          <img class="mobile-image" src="resources/images/information-orientation-mobile.jpg">
           <div class="details">
             <h3>Orientation date</h3>
             <p>Tue 10/11 &amp; Wed 10/12: 8am-3pm</p>
@@ -60,20 +60,20 @@
           </div>
         </div>
         <div class="row">
-          <img class="DesktopImage" src="resources/images/information-campus.jpg">
-          <img class="MobileImage" src="resources/images/information-campus-mobile.jpg">
+          <img class="desktop-image" src="resources/images/information-campus.jpg">
+          <img class="mobile-image" src="resources/images/information-campus-mobile.jpg">
           <div class="details">
             <h3>Our campus</h3>
             <p>Find which campus is close by you</p>
             <a href="#">Read more</a>
           </div>
         </div>
-        <div class="row" id="ThirdRow">
-          <img class="DesktopImage" src="resources/images/information-guest-lecture.jpg">
-          <img class="MobileImage" src="resources/images/information-guest-lecture-mobile.jpg">
+        <div class="row" id="third-row">
+          <img class="desktop-image" src="resources/images/information-guest-lecture.jpg">
+          <img class="mobile-image" src="resources/images/information-guest-lecture-mobile.jpg">
           <div class="details">
-            <h3 class="DesktopHeader">Our guest lecture</h3>
-            <h3 class="MobileHeader">Special guest lecture</h3>
+            <h3 class="desktop-header">Our guest lecture</h3>
+            <h3 class="mobile-header">Special guest lecture</h3>
             <p>Join a keynote with Oliver Sack about music in medical treatment</p>
             <a href="#">Read more</a>
           </div>
@@ -81,90 +81,110 @@
       </div>
     </div>
 <!--classes-->
-    <div class="learning">
-      <h1>Start Learning</h1>
-      <div class="grids">
-        <div class="row">
-          <div class="grid" id="SoftwareEngineering">
+<div class="courses">
+    <h1>Start Learning</h1>
+    <div class="courses-wrapper">
+        <div id="course-box">
             <img src="resources/images/course-software.jpg">
-            <div class="content">
-              <h3>Software engineering</h3>
-              <h4>COURSES</h4>
-              <br>
-              <p>Web Development, Mobile Development, iOT, APIs</p>
+            <div id="course-desc">
+                <div id="course-title"><h3>Software Engineering</h3></div>
+                <div id="course-dummy"><h6>COURSES</h6></div>
+                <div id="course-info">
+                    <div id="modules"><a href="#">Web Development</a>,
+                    <a href="#">Mobile Development</a>,
+                    <a href="#">iOT</a>,
+                    <a href="#">APIs</a>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="grid" id="ComputerArt">
+        </div>
+        <div id="course-box">
             <img src="resources/images/course-computer-art.jpg">
-            <div class="content">
-              <h3>Computer art</h3>
-              <h4>COURSES</h4>
-              <br>
-              <p>Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</p>
+            <div id="course-desc">
+                <div id="course-title"><h3>Computer Art</h3></div>
+                <div id="course-dummy"><h6>COURSES</h6></div>
+                <div id="course-info">
+                    <div id="modules"><a href="#">Imaging and Design</a>,
+                    <a href="#">Web Design</a>,
+                    <a href="#">Motion Graphics and Visual Effects</a>,
+                    <span id="modules"><a href="#">Computer Animation</a>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="grid" id="design">
-            <img src="resources/images/course-design.jpg">
-            <div class="content">
-              <h3>Design</h3>
-              <h4>COURSES</h4>
-              <br>
-              <p>User Experience Design, User Research, Visual Design<p>
-            </div>
-          </div>
         </div>
-        <div class="row">
-          <div class="grid" id="data">
+        <div id="course-box">
             <img src="resources/images/course-design.jpg">
-            <div class="content">
-              <h3>Data</h3>
-              <h4>COURSES</h4>
-              <br>
-              <p>Data Science, Big Data, SQL, Data Visualization<p>
+            <div id="course-desc">
+                <div id="course-title"><h3>Visual Design</h3></div>
+                <div id="course-dummy">COURSES</div>
+                <div id="course-info">
+                    <span id="modules"><a href="#">User Experience Design</a></span>
+                    <span id="modules"><a href="#">User Research</a></span><br>
+                    <span id="modules"><a href="#">Visual Design</a></span>
+                </div>
             </div>
-          </div>
-          <div class="grid" id="business">
+        </div>
+        <div id="course-box">
+            <img src="resources/images/course-data.jpg">
+            <div id="course-desc">
+                <div id="course-title">Data Analysis</div>
+                <div id="course-dummy">COURSES</div>
+                <div id="course-info">
+                    <span id="modules"><a href="#">Data Science</a></span>
+                    <span id="modules"><a href="#">Big Data</a></span>
+                    <span id="modules"><a href="#">SQL</a></span> <br>
+                    <span id="modules"><a href="#">Data Visualisation</a></span>
+                </div>
+            </div>
+        </div>
+        <div id="course-box">
             <img src="resources/images/course-business.jpg">
-            <div class="content">
-              <h3>Business</h3>
-              <h4>COURSES</h4>
-              <br>
-              <p>Product Development, Business Development, Startup<p>
+            <div id="course-desc">
+                <div id="course-title">Business Foundations</div>
+                <div id="course-dummy">COURSES</div>
+                <div id="course-info">
+                    <span id="modules"><a href="#">Product Development</a></span><br>
+                    <span id="modules"><a href="#">Business Development</a></span>
+                    <span id="modules"><a href="#">Start-up 101</a></span>
+                </div>
             </div>
-          </div>
-          <div class="grid" id="marketing">
-            <img src="resources/images/course-marketing.jpg">
-            <div class="content">
-              <h3>Marketing</h3>
-              <h4>COURSES</h4>
-              <br>
-              <p>Analytics, Content Marketing, Mobile Marketing<p>
-            </div>
-          </div>
         </div>
-      </div>
-      <div class="MobileGrids">
-        <h3>Software engineering</h3>
-        <h3>Computer art</h3>
-        <h3>Design</h3>
-        <h3>Data</h3>
-        <h3>Business</h3>
-        <h3>Marketing</h3>
-      </div>
+        <div id="course-box">
+            <img src="resources/images/course-marketing.jpg">
+            <div id="course-desc">
+                <div id="course-title">Marketing Strategies</div>
+                <div id="course-dummy">COURSES</div>
+                <div id="course-info">
+                    <span id="modules"><a href="#">Consumer Analytics</a></span>
+                    <span id="modules"><a href="#">Content Marketing</a></span>
+                    <span id="modules"><a href="#">Mobile Marketing</a></span>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <div class="mobile-courses-wrapper">
+        <div id="mobile-course"><a href="#">Software Engineering</a></div>
+        <div id="mobile-course"><a href="#">Computer Art</a></div>
+        <div id="mobile-course"><a href="#">Visual Design</a></div>
+        <div id="mobile-course"><a href="#">Data Analysis</a></div>
+        <div id="mobile-course"><a href="#">Business Foundations</a></div>
+        <div id="mobile-course"><a href="#">Marketing Strategies</a></div>
+    </div>
+  </div>
 <!--thesis section-->
-    <div class="ThesisExhibit">
+    <div class="thesis-exhibit">
       <h2>Thesis exhibit</h2>
       <div class="content">
-        <div class="LeftSide">
+        <div class="left-side">
           <video src="resources/videos/thesis.mp4" controls></video>
           <h3>Reimagine urban</h3>
           <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec<br>
             consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget<br>
             magna laoreet, efficitur dolor consequat, tristique ligula."</p>
         </div>
-        <div class="RightSide">
-          <div class="row" id="FirstRow">
+        <div class="right-side">
+          <div class="row" id="first-row">
             <img src="resources/images/thesis-fisma.jpg">
             <div class="content">
               <h3>Fisma: Design and<br>prototype</h3>
@@ -180,14 +200,14 @@
           </div>
         </div>
       </div>
-      <video class="MobileVideo" src="resources/videos/thesis.mp4" controls></video>
+      <video class="mobile-video" src="resources/videos/thesis.mp4" controls></video>
     </div>
 <!--footer-->
     <footer>
       <div class="copyright">
         <p>&copy; 2016 Colmar Academy. All rights reserved</p>
       </div>
-      <div class="TermsAndPrivacy">
+      <div class="terms-privacy">
         <a href="#">Terms</a>
         <a href="#">Privacy</a>
       </div>
