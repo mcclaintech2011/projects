@@ -345,7 +345,8 @@ nav .button {
 }
 
 .thesis-exhibit .right-side #first-row {
-  background-color: lightgray;
+  background-color: #929292;
+  color: #D9D9D9;
 }
 
 .mobile-video {
@@ -449,6 +450,7 @@ footer .terms-privacy a {
   .information .right-side #third-row {
     display: block;
     background-color: white;
+    color: #535353;
   }
 
   .information .right-side .details {
@@ -473,25 +475,6 @@ footer .terms-privacy a {
     padding: 0;
     margin-top: 32px;
     margin-bottom: 16px;
-  }
-
-  .grids {
-    display: none;
-  }
-
-  .MobileGrids {
-    display: block;
-    margin-bottom: 32px;
-  }
-
-  .MobileGrids h3 {
-    width: 90%;
-    font-size: 21px;
-    background-color: lightgray;
-    margin-left: 16px;
-    padding-left: 16px;
-    padding-top: 16px;
-    padding-bottom: 24px;
   }
 
   .courses-wrapper {
