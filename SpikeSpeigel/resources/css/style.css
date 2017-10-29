@@ -1,0 +1,44 @@
+/* Universal Styles */
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+/* Bootstrap Overrides */
+
+.jumbotron {
+  background-image: url("../images/img-clear-morning.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  margin-top: 50px;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+#showcase {
+  margin-top: 50px;
+}
+
+/* About Section - Grid System */
+
+.left-col {
+  font-size: 52px;
+}
+
+.right-col {
+  font-size: 24px;
+}
+
+/* Contact - Grid System */
+
+#contact p {
+  font-size: 24px;
+}
