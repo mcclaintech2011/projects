@@ -73,4 +73,6 @@ Transitions - [20,000 Leagues Under the Sea](http://mcclaintech2011.github.io/pr
 
 Design - [Colmar Academy](http://mcclaintech2011.github.io/projects/ColmarAcademy/index.html "Colmar Academy full package")
 
-Bootstrap - [Spike Speigel](http://mcclaintech2011.github.io/projects/SpikeSpeigel/index.html "SpikeSpeigel full package")
+Bootstrap - [Spike Speigel](http://mcclaintech2011.github.io/projects/SpikeSpeigel/index.html "SpikeSpeigel bootstrap")
+
+JQuery - [List Maker](http://mcclaintech2011.github.io/projects/ListMaker/index.html "ListMaker JQuery")
