@@ -1,0 +1,82 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  min-width: 570px;
+  font-family: "Work Sans", sans-serif;
+  line-height: 2.5;
+  color: #4a4a4a;
+}
+
+input:focus {
+  outline: none;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.header {
+  padding: 2.75rem 0;
+  background-color: #22013f;
+}
+
+.header h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Righteous", cursive;
+  color: #ff00ab;
+}
+
+.header input {
+  border-radius: 19px;
+  margin-right: .625rem;
+}
+
+.header .fa-search {
+  padding: .5rem;
+  border-radius: 19px;
+  text-align: center;
+  background-color: #ff00ab;
+  color: #22013f;
+}
+
+.header .fa-search:hover {
+  background-color: #ff66cc;
+  cursor: pointer;
+}
+
+.attributes {
+  background-color: #6800ff;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.track {
+  display: flex;
+  padding: .6rem;
+  border-bottom: 1px solid #cccccc;
+  line-height: 1;
+}
+
+.track:hover {
+  background-color: #f0eef3;
+}
+
+.track div {
+  display: flex;
+  align-items: center;
+}
+
+.play-button a {
+  display: flex;
+  align-items: center;
+  color: #ff00ab;
+}
+
+.play-button a:hover {
+  color: #ff66cc;
+}
