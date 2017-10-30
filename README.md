@@ -19,11 +19,11 @@
 
 [Dasmotos](https://mcclaintech2011.github.io/projects/Dasmotos/index.html "Dasmotos html + css")
 
-[Dev Project](https://mcclaintech2011.github.io/projects/DevProject/index.html "DevProject html + css")
-
 [Excursion](https://mcclaintech2011.github.io/projects/excursion/index.html "excursion html + css")
 
 [Olivia Woodruff Portfolio](https://mcclaintech2011.github.io/projects/OliviaWoodruffPortfolio/index.html "OliviaWoodruffPortfolio html + css")
+
+Sass Compiled - [Dad's Lemonade](http://mcclaintech2011.github.io/projects/DadsLemonade/index.html "DadsLemonade Sass compiled")
 
 
 #### HTML + CSS + FLEXBOX
