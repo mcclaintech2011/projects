@@ -55,7 +55,7 @@
 #### OTHER CONCEPTS
 Color Theory - [Best Coffee](http://mcclaintech2011.github.io/projects/BestCoffee/index.html "BestCoffee color theory")
 
-Color Theory - [Best Bites](http://mcclaintech2011.github.io/projects/BestBites/index.html "BestBites color theory")
+Color Theory - [Best Bite](http://mcclaintech2011.github.io/projects/BestBite/index.html "BestBite color theory")
 
 HSL/A - [Digital Art | HSL/A](http://mcclaintech2011.github.io/projects/DigitalArt/index.html "DigitalArt HSL/A")
 
@@ -71,4 +71,6 @@ Transitions - [Transition Samples](http://mcclaintech2011.github.io/projects/Tra
 
 Transitions - [20,000 Leagues Under the Sea](http://mcclaintech2011.github.io/projects/20000Leagues/index.html "20000Leagues transitions")
 
-Full Package - [Colmar Academy](http://mcclaintech2011.github.io/projects/ColmarAcademy/index.html "Colmar Academy full package")
+Design - [Colmar Academy](http://mcclaintech2011.github.io/projects/ColmarAcademy/index.html "Colmar Academy full package")
+
+Bootstrap - [Spike Speigel](http://mcclaintech2011.github.io/projects/SpikeSpeigel/index.html "SpikeSpeigel full package")
