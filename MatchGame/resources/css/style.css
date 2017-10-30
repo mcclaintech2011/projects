@@ -1,0 +1,43 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  min-width: 400px; /* To emulate Chrome min-width */
+  background-color: rgb(255, 242, 242);
+  font-family: "Work Sans", sans-serif;
+  color: rgb(32, 64, 86);
+}
+
+h1 {
+  font-size: 2.1875rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: .875rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: .875rem;
+  color: rgb(74, 74, 74);
+}
+
+.container {
+  padding-top: 5.25rem;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12.5rem;
+  border: 4px solid white;
+  border-radius: 8px;
+  background-color: rgb(32, 64, 86);
+  font-size: 7rem;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
