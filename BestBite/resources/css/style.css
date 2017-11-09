@@ -69,7 +69,7 @@ a {
   flex-direction: column;
   height: 445px;
   padding: 25px 60px 30px 30px;
-  background: url("../images/bg.png") no-repeat center center;
+  background: url("../images/bg.jpg") no-repeat center center;
   background-size: cover;
   text-align: right;
 }
