@@ -1,0 +1,100 @@
+/* GLOBAL */
+html,
+body {
+  background-image: url('../images/background.jpg');
+  font-size: 20px;
+  font-family: 'Handlee', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Satisfy', cursive;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.5em;
+  padding-bottom: 5%;
+}
+
+a {
+  color: #8f50aa;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #14d098;
+  transition: color .5s;
+}
+
+/* STYLING */
+.top {
+  background-color: #0d8a65;
+  text-align: center;
+  padding-top: .25%;
+  padding-bottom: .25%;
+}
+
+.container {
+  padding-top: 1em;
+}
+
+.description,
+.cook-time {
+  text-align: center;
+}
+
+.description {
+  font-style: italic;
+}
+
+.cook-time {
+  font-weight: bold;
+}
+
+#body .col-md-4 img {
+  width: 400px;
+  height: auto;
+}
+
+#mobile {
+  display: none;
+}
+
+.outro {
+  padding-bottom: 5%;
+}
+
+.navbar {
+  padding: 0% 5%;
+  background-color: #0d8a65;
+}
+
+.navbar a {
+  color: #F9F9F9;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+  color: #14d098;
+  transition: color .5s;
+}
+
+.navbar-brand {
+  font-family: 'Satisfy', cursive;
+}
+
+/* MOBILE */
+@media only screen and (max-width: 720px) {
+  .top img {
+    display: none;
+  }
+
+  #desktop {
+    display: none;
+  }
+
+  #mobile {
+    display: contents;
+  }
+}
