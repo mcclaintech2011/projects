@@ -57,7 +57,7 @@ a:hover {
   height: auto;
 }
 
-#mobile {
+.mobile {
   display: none;
 }
 
@@ -86,7 +86,15 @@ a:hover {
 
 /* MOBILE */
 @media only screen and (max-width: 720px) {
+  .top {
+    height: 25px;
+  }
+
   .top img {
+    display: none;
+  }
+
+  #header img {
     display: none;
   }
 
@@ -94,7 +102,29 @@ a:hover {
     display: none;
   }
 
-  #mobile {
-    display: contents;
+  .mobile {
+    display: inline-block;
+  }
+
+  .mobile img {
+    width: 80%;
+    height: auto;
+    padding-bottom: 3%;
+  }
+
+  .outro {
+    padding-bottom: 200px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .outro {
+    padding-bottom: 250px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .outro {
+    padding-bottom: 350px;
   }
 }
