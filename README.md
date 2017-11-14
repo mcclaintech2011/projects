@@ -75,6 +75,8 @@ Bootstrap - [Spike Speigel](http://mcclaintech2011.github.io/projects/SpikeSpeig
 
 JQuery - [List Maker](http://mcclaintech2011.github.io/projects/ListMaker/index.html "ListMaker JQuery")
 
+Code Redaction [Healthy Recipie Redesign](https://mcclaintech2011.github.io/projects/HealthyRecipies/redesign.html "HealthyRecipies Redaction")
+
 
 #### FULL PROJECTS
 [Colmar Academy](http://mcclaintech2011.github.io/projects/ColmarAcademy/index.html "Colmar Academy full project")
