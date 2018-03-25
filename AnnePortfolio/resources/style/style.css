@@ -5,15 +5,12 @@ font-family: 'Marcellus', serif;*/
 /* Universal Styles */
 
 body {
-  font-family: "Marcellus", serif;
+  font-family: "Marcellus", sans-serif;
   text-align: center;
 }
 
 h2 {
   font-size: 40px;
-}
-h1 {
-  font-family: "Satisfy", cursive;
 }
 
 /* Bootstrap Overrides */
