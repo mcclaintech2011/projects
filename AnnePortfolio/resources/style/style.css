@@ -1,0 +1,51 @@
+/*font-family: 'Satisfy', cursive;
+font-family: 'Marcellus SC', serif;
+font-family: 'Marcellus', serif;*/
+
+/* Universal Styles */
+
+body {
+  font-family: "Marcellus", serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+}
+h1 {
+  font-family: "Satisfy", cursive;
+}
+
+/* Bootstrap Overrides */
+
+.jumbotron {
+  background-image: url("../images/1_42ebJizcUtZBNIZPmmMZ5Q.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  margin-top: 50px;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+#showcase {
+  margin-top: 50px;
+}
+
+/* About Section - Grid System */
+
+.left-col {
+  font-size: 52px;
+}
+
+.right-col {
+  font-size: 24px;
+}
+
+/* Contact - Grid System */
+
+#contact p {
+  font-size: 24px;
+}
