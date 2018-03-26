@@ -1,11 +1,21 @@
+/* FONTS
+font-family: 'Satisfy', cursive;
+font-family: 'Marcellus SC', serif;
+font-family: 'Marcellus', serif; */
+
 /* Universal Styles */
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Marcellus", serif;
   text-align: center;
 }
 
+h1 {
+  font-family: "Marcellus SC", serif;
+}
+
 h2 {
+  font-family: "Marcellus SC", serif;
   font-size: 40px;
 }
 
@@ -17,6 +27,16 @@ h2 {
   background-repeat: no-repeat;
   color: white;
   margin-top: 50px;
+}
+
+.jumbotron h1 {
+  font-family: "Satisfy", cursive;
+  font-size: 75px;
+}
+
+.jumbotron p {
+  font-family: "Satisfy", cursive;
+  font-size: 40px;
 }
 
 .navbar {
@@ -35,6 +55,19 @@ h2 {
 
 .right-col {
   font-size: 24px;
+  text-align: left;
+}
+
+
+/* Body Changes */
+
+#writing h3 {
+  text-align: left;
+  font-weight: bold;
+}
+
+#writing p {
+  text-align: left;
 }
 
 /* Contact - Grid System */
