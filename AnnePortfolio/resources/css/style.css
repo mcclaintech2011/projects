@@ -1,5 +1,4 @@
 /* FONTS
-font-family: 'Satisfy', cursive;
 font-family: 'Marcellus SC', serif;
 font-family: 'Marcellus', serif; */
 
@@ -19,24 +18,39 @@ h2 {
   font-size: 40px;
 }
 
+p {
+  font-size: 16px;
+}
+
+hr {
+    display: block;
+    width: 80%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
 /* Bootstrap Overrides */
 
 .jumbotron {
-  background-image: url("../images/img-clear-morning.jpg");
+  /*background-image: url("../images/img-clear-morning.jpg");
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
   color: white;
   margin-top: 50px;
+  background-color: #96909A;
 }
 
 .jumbotron h1 {
-  font-family: "Satisfy", cursive;
-  font-size: 75px;
+  font-size: 100px;
 }
 
 .jumbotron p {
-  font-family: "Satisfy", cursive;
-  font-size: 40px;
+  font-family: 'Marcellus', serif;
+  font-size: 60px;
 }
 
 .navbar {
@@ -70,8 +84,24 @@ h2 {
   text-align: left;
 }
 
+#writing a {
+  color: #A88C8C;
+  font-weight: bold;
+}
+
 /* Contact - Grid System */
 
 #contact p {
   font-size: 24px;
+}
+
+#contact a {
+  color: #A88C8C;
+  font-weight: bold;
+}
+
+#copyright p {
+  font-size: 13px;
+  padding-left: 30px;
+  padding-bottom: 15px;
 }
