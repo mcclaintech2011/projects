@@ -1,6 +1,7 @@
 /* FONTS
 font-family: 'Marcellus SC', serif;
-font-family: 'Marcellus', serif; */
+font-family: 'Marcellus', serif;
+font-family: 'Tangerine', cursive; */
 
 /* Universal Styles */
 
@@ -45,12 +46,13 @@ hr {
 }
 
 .jumbotron h1 {
-  font-size: 100px;
+  font-size: 150px;
+  font-family: 'Tangerine', cursive;
 }
 
 .jumbotron p {
   font-family: 'Marcellus', serif;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .navbar {
